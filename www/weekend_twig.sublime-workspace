@@ -1,0 +1,692 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"input"
+			],
+			[
+				"for",
+				"form	Tag"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"im",
+				"img	Tag"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"bordecol",
+				"border-color"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"drop",
+				"dropdown"
+			],
+			[
+				"fo",
+				"foundation"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"borde",
+				"border-width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"foupa",
+				"Snippet: ZURB Foundation 5 Pagination"
+			],
+			[
+				"foundbr",
+				"Snippet: ZURB Foundation 5 Breadcrumbs"
+			],
+			[
+				"foundslid",
+				"Snippet: ZURB Foundation 5 Orbit Slider"
+			],
+			[
+				"sousli",
+				"Snippet: ZURB Foundation 5 Orbit Content Slider"
+			],
+			[
+				"fousli",
+				"Snippet: ZURB Foundation 5 Orbit Slider"
+			],
+			[
+				"foundsli",
+				"Snippet: ZURB Foundation 5 Orbit Slider"
+			],
+			[
+				"foundadro",
+				"Snippet: ZURB Foundation 5 Dropdown Buttons"
+			],
+			[
+				"foundbut",
+				"Snippet: ZURB Foundation 5 Button Groups"
+			],
+			[
+				"founda",
+				"Snippet: ZURB Foundation 5 Split Buttons"
+			],
+			[
+				"snip",
+				"Snippet: ZURB Foundation 5 Orbit Slider"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"snipta",
+				"Snippet: ZURB Foundation 5 Tabs"
+			],
+			[
+				"snipdro",
+				"Snippet: ZURB Foundation 5 Dropdown Buttons"
+			],
+			[
+				"snipre",
+				"Snippet: ZURB Foundation 5 Reveal"
+			],
+			[
+				"snipdrd",
+				"Snippet: ZURB Foundation 5 Dropdown Buttons"
+			],
+			[
+				"snipbut",
+				"Snippet: ZURB Foundation 5 Split Buttons"
+			],
+			[
+				"snippbutgr",
+				"Snippet: ZURB Foundation 5 Button Groups"
+			],
+			[
+				"gitst",
+				"Git: Status"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"con",
+				"Convert Case: Upper Case"
+			],
+			[
+				"insp",
+				"Package Control: Install Package"
+			],
+			[
+				"inspa",
+				"Package Control: Install Package"
+			],
+			[
+				"zurb",
+				"Snippet: ZURB Foundation 5 Accordion"
+			],
+			[
+				"zurbbu",
+				"Snippet: ZURB Foundation 5 Buttons"
+			],
+			[
+				"",
+				"Snippet: ZURB Foundation 5 Buttons"
+			]
+		],
+		"width": 496.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Z/home/weekend_main_twig.com/www/weekend_twig.sublime-project",
+		"/Z/home/weekend_main_twig.com/www/index.php",
+		"/Z/home/weekend_main_twig.com/www/index.html",
+		"/Z/home/php.com/www/index.php",
+		"/Z/home/weekend_main_twig.com/www/Twig-1.16.0/lib/Twig/Node/Expression/Binary/GreaterEqual.php",
+		"/Z/home/weekend_main_twig.com/www/robots.txt",
+		"/Z/home/weekend_main_twig.com/www/Twig-1.16.0/README.rst",
+		"/Z/home/weekend_main_twig.com/www/weekend_main.sublime-project",
+		"/Z/home/weekend_main.com/www/weekend_main.sublime-project",
+		"/D/Developing/Verstka/weekend_main/js/vendor/jquery.js",
+		"/D/Developing/CssCheckboxKit_1404572338217980/style.css",
+		"/D/Developing/Verstka/weekend_main/js/masonry.js",
+		"/D/Developing/Verstka/weekend_main/css/main.css",
+		"/D/Developing/Verstka/weekend_main/js/shuffle.js",
+		"/D/Developing/Verstka/weekend_main/foundation-icons/foundation-icons/preview.html",
+		"/D/Developing/Verstka/weekend_main/foundation-icons/foundation-icons/foundation-icons.css",
+		"/D/Developing/Verstka/weekend_main/css/foundation.css",
+		"/C/Users/Администратор/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/Developing/Verstka/weekend_main/js/foundation/foundation.offcanvas.js",
+		"/D/Developing/Verstka/weekend_main/humans.txt",
+		"/D/Developing/Verstka/weekend_main/robots.txt",
+		"/D/Developing/Verstka/weekend_main/weekend_main.sublime-project",
+		"/D/Developing/Verstka/weekend_main/css/foundation.min.css",
+		"/D/Developing/Verstka/weekend_main/css/normalize.css",
+		"/D/Developing/Verstka/weekend_main/fonts/Marta_Italic.otf",
+		"/D/Developing/Verstka/weekend_main/foundation-icons/__MACOSX/._foundation-icons",
+		"/C/Users/Администратор/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Program Files/Sublime Text 3/Packages/Color Scheme - Default.sublime-package",
+		"/D/Developing/Verstka/weekend_main/index.html",
+		"/C/Users/Администратор/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/Auditoriya",
+		"/C/Users/Администратор/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Администратор/AppData/Roaming/Sublime Text 3/Packages/russian-aot-ieyo.dic",
+		"/C/Users/Администратор/AppData/Roaming/Sublime Text 3/Packages/russian-aot-ieyo.aff",
+		"/D/Developing/Verstka/weekend/robots.txt",
+		"/D/Developing/Verstka/weekend/foundation-icons/foundation-icons/svgs/fi-record.svg",
+		"/D/Developing/foundation-5.3.0/css/foundation.css",
+		"/C/DevKit/config.yml",
+		"/D/Developing/foundation_youtube/.bowerrc",
+		"/C/Ruby200/lib/ruby/gems/2.0.0/gems/thor-0.19.1/lib/thor/actions.rb",
+		"/D/Developing/foundation-5-sublime-snippets/.bowerrc",
+		"/C/Ruby200/lib/ruby/gems/2.0.0/gems/thor-0.19.1/lib/thor/actions/create_file.rb",
+		"/C/Users/Администратор/AppData/Local/Temp/ed10d261-eb5a-46d6-9c4c-b48a4179e3a5/dav/template/Panels/HomeNewProducts.html",
+		"/C/Users/Администратор/AppData/Local/Temp/ed10d261-eb5a-46d6-9c4c-b48a4179e3a5/dav/template/Styles/mg.styles.css",
+		"/C/Users/Администратор/AppData/Local/Temp/ed10d261-eb5a-46d6-9c4c-b48a4179e3a5/dav/template/default.html",
+		"/C/Users/Администратор/AppData/Local/Temp/ed10d261-eb5a-46d6-9c4c-b48a4179e3a5/dav/template/Snippets/HomeNewProductsItem.html",
+		"/C/Users/Администратор/AppData/Local/Temp/ed10d261-eb5a-46d6-9c4c-b48a4179e3a5/dav/template/Panels/Footer.html",
+		"/C/Users/Администратор/AppData/Local/Temp/ed10d261-eb5a-46d6-9c4c-b48a4179e3a5/dav/template/category.html",
+		"/C/Users/Администратор/AppData/Local/Temp/ed10d261-eb5a-46d6-9c4c-b48a4179e3a5/dav/template/Panels/Header.html",
+		"/C/Users/Администратор/AppData/Local/Temp/ed10d261-eb5a-46d6-9c4c-b48a4179e3a5/dav/template/Panels/TopMenu.html",
+		"/C/Users/Администратор/AppData/Local/Temp/ed10d261-eb5a-46d6-9c4c-b48a4179e3a5/dav/template/Panels/PagesMenu.html",
+		"/C/Users/Администратор/AppData/Local/Temp/ed10d261-eb5a-46d6-9c4c-b48a4179e3a5/dav/template/Snippets/PageMenu.html",
+		"/C/Users/Администратор/AppData/Local/Temp/ed10d261-eb5a-46d6-9c4c-b48a4179e3a5/dav/template/page.html",
+		"/C/Users/Администратор/AppData/Local/Temp/ed10d261-eb5a-46d6-9c4c-b48a4179e3a5/dav/template/product.html",
+		"/C/Users/Администратор/AppData/Local/Temp/2ee2ca18-f624-4c52-8f4a-60a0010c86b0/dav/template/Panels/SideAccountMenu.html",
+		"/C/Users/Администратор/AppData/Local/Temp/80ebd30f-7a51-4ba3-a631-56d90fb2d42a/dav/template/Panels/SideAccountMenu.html",
+		"/C/Users/Администратор/AppData/Local/Temp/80ebd30f-7a51-4ba3-a631-56d90fb2d42a/dav/template/account.html",
+		"/C/Users/Администратор/AppData/Local/Temp/80ebd30f-7a51-4ba3-a631-56d90fb2d42a/dav/template/account_addressbook.html",
+		"/C/Users/Администратор/AppData/Local/Temp/80ebd30f-7a51-4ba3-a631-56d90fb2d42a/dav/template/account_inbox.html",
+		"/C/Users/Администратор/AppData/Local/Temp/80ebd30f-7a51-4ba3-a631-56d90fb2d42a/dav/template/category.html",
+		"/C/Users/Администратор/AppData/Local/Temp/80ebd30f-7a51-4ba3-a631-56d90fb2d42a/dav/template/page.html",
+		"/C/Users/Администратор/AppData/Local/Temp/80ebd30f-7a51-4ba3-a631-56d90fb2d42a/dav/template/Styles/mg.styles.css",
+		"/C/Users/Администратор/AppData/Local/Temp/80ebd30f-7a51-4ba3-a631-56d90fb2d42a/dav/template/Panels/LoginForm.html",
+		"/C/Users/Администратор/AppData/Local/Temp/80ebd30f-7a51-4ba3-a631-56d90fb2d42a/dav/template/Panels/CreateAccountForm.html",
+		"/C/Users/Администратор/AppData/Local/Temp/80ebd30f-7a51-4ba3-a631-56d90fb2d42a/dav/template/createaccount_thanks.html",
+		"/C/Users/Администратор/AppData/Local/Temp/80ebd30f-7a51-4ba3-a631-56d90fb2d42a/dav/template/createaccount.html",
+		"/C/Users/Администратор/AppData/Local/Temp/80ebd30f-7a51-4ba3-a631-56d90fb2d42a/dav/template/Panels/EditAccountForm.html",
+		"/C/Users/Администратор/AppData/Local/Temp/80ebd30f-7a51-4ba3-a631-56d90fb2d42a/dav/template/Panels/Header.html",
+		"/C/Users/Администратор/AppData/Local/Temp/80ebd30f-7a51-4ba3-a631-56d90fb2d42a/dav/template/Snippets/SocialLink.html",
+		"/C/Users/Администратор/AppData/Local/Temp/80ebd30f-7a51-4ba3-a631-56d90fb2d42a/dav/template/Panels/ProductDetails.html",
+		"/C/Users/Администратор/AppData/Local/Temp/80ebd30f-7a51-4ba3-a631-56d90fb2d42a/dav/template/product.html",
+		"/C/Users/Администратор/AppData/Local/Temp/80ebd30f-7a51-4ba3-a631-56d90fb2d42a/dav/template/Panels/HomeNewProducts.html",
+		"/C/Users/Администратор/AppData/Local/Temp/80ebd30f-7a51-4ba3-a631-56d90fb2d42a/dav/template/Styles/white.css",
+		"/C/Users/Администратор/AppData/Local/Temp/8c140075-1f38-4a25-9d03-e2a4a2d3ae3f/dav/template/category.html",
+		"/C/Users/Администратор/AppData/Local/Temp/8c140075-1f38-4a25-9d03-e2a4a2d3ae3f/dav/template/Styles/mg.styles.css",
+		"/C/Users/Администратор/AppData/Local/Temp/80ebd30f-7a51-4ba3-a631-56d90fb2d42a/dav/template/default.html",
+		"/C/Users/Администратор/AppData/Local/Temp/8c140075-1f38-4a25-9d03-e2a4a2d3ae3f/dav/template/product.html",
+		"/C/Users/Администратор/AppData/Local/Temp/8c140075-1f38-4a25-9d03-e2a4a2d3ae3f/dav/template/Panels/ProductDetails.html",
+		"/C/Users/Администратор/AppData/Local/Temp/8c140075-1f38-4a25-9d03-e2a4a2d3ae3f/dav/template/Snippets/ProductAddToCart.html",
+		"/C/Users/Администратор/AppData/Local/Temp/8c140075-1f38-4a25-9d03-e2a4a2d3ae3f/dav/template/Panels/CategoryContent.html",
+		"/C/Users/Администратор/AppData/Local/Temp/8c140075-1f38-4a25-9d03-e2a4a2d3ae3f/dav/template/Panels/HomeNewProducts.html",
+		"/C/Users/Администратор/AppData/Local/Temp/8c140075-1f38-4a25-9d03-e2a4a2d3ae3f/dav/template/default.html",
+		"/C/Users/Администратор/AppData/Local/Temp/8c140075-1f38-4a25-9d03-e2a4a2d3ae3f/dav/template/Panels/HomeSlideShow.html",
+		"/C/Users/Администратор/AppData/Local/Temp/8c140075-1f38-4a25-9d03-e2a4a2d3ae3f/dav/template/Snippets/HomeNewProductsItem.html",
+		"/C/Users/Администратор/AppData/Local/Temp/8c140075-1f38-4a25-9d03-e2a4a2d3ae3f/dav/template/Styles/styles.css",
+		"/C/Users/Администратор/AppData/Local/Temp/8c140075-1f38-4a25-9d03-e2a4a2d3ae3f/dav/template/Panels/Header.html",
+		"/C/Users/Администратор/AppData/Local/Temp/8c140075-1f38-4a25-9d03-e2a4a2d3ae3f/dav/template/page.html",
+		"/C/Users/Администратор/AppData/Local/Temp/8c140075-1f38-4a25-9d03-e2a4a2d3ae3f/dav/template/js/work.js",
+		"/D/Downloads/template (1)/page.html",
+		"/C/Users/Администратор/AppData/Local/Temp/8c140075-1f38-4a25-9d03-e2a4a2d3ae3f/dav/template/Panels/HTMLHead.html",
+		"/D/Downloads/template (1)/Panels/HTMLHead.html",
+		"/C/Users/Администратор/AppData/Local/Temp/d77bd295-0cc8-402e-8c94-7057cdde0bca/dav/template/page.html",
+		"/C/Users/Администратор/AppData/Local/Temp/6f34ee35-8128-4397-877f-6d527661bc28/dav/template/category.html",
+		"/D/Downloads/template (9)/Styles/mg.styles.css",
+		"/C/Users/Администратор/AppData/Local/Temp/d77bd295-0cc8-402e-8c94-7057cdde0bca/dav/template/category.html",
+		"/C/Users/Администратор/AppData/Local/Temp/7bcc6ed3-3fd2-445d-bca3-35bdcd7e9998/dav/template/page.html",
+		"/C/Users/Администратор/AppData/Local/Temp/2236b07a-d40e-4b0e-8429-f34a3a8bdc88/dav/template/page.html",
+		"/C/Users/Администратор/AppData/Local/Temp/7bcc6ed3-3fd2-445d-bca3-35bdcd7e9998/dav/template/category.html",
+		"/C/Users/Администратор/AppData/Local/Temp/7bcc6ed3-3fd2-445d-bca3-35bdcd7e9998/dav/template/Styles/mg.styles.css",
+		"/C/Users/Администратор/AppData/Local/Temp/7bcc6ed3-3fd2-445d-bca3-35bdcd7e9998/dav/template/Panels/HTMLHead.html",
+		"/C/Users/Администратор/AppData/Local/Temp/7bcc6ed3-3fd2-445d-bca3-35bdcd7e9998/dav/template/css/facybox-1.3.4.css",
+		"/C/Users/Администратор/AppData/Local/Temp/7bcc6ed3-3fd2-445d-bca3-35bdcd7e9998/dav/template/js/ jquery.fancybox-1.3.4.pack.js",
+		"/C/Users/Администратор/AppData/Local/Temp/7bcc6ed3-3fd2-445d-bca3-35bdcd7e9998/dav/template/js/work.js",
+		"/C/Users/Администратор/AppData/Local/Temp/7bcc6ed3-3fd2-445d-bca3-35bdcd7e9998/dav/template/product.html",
+		"/C/Users/Администратор/AppData/Local/Temp/7bcc6ed3-3fd2-445d-bca3-35bdcd7e9998/dav/template/Panels/HomeNewProducts.html",
+		"/C/Users/Администратор/AppData/Local/Temp/7bcc6ed3-3fd2-445d-bca3-35bdcd7e9998/dav/template/Snippets/HomeNewProductsItem.html",
+		"/C/Users/Администратор/Desktop/new-store/1.html",
+		"/C/Users/Администратор/AppData/Local/Temp/7bcc6ed3-3fd2-445d-bca3-35bdcd7e9998/dav/template/default.html",
+		"/C/Users/Администратор/AppData/Local/Temp/7bcc6ed3-3fd2-445d-bca3-35bdcd7e9998/dav/template/Styles/adaptive-styles.css",
+		"/D/Developing/Verstka/Новая заготовка/css/main.css",
+		"/C/Users/Администратор/AppData/Local/Temp/7bcc6ed3-3fd2-445d-bca3-35bdcd7e9998/dav/template/Panels/Footer.html",
+		"/C/Users/Администратор/AppData/Local/Temp/7bcc6ed3-3fd2-445d-bca3-35bdcd7e9998/dav/template/Snippets/ProductBreadCrumb.html",
+		"/C/Users/Администратор/AppData/Local/Temp/7bcc6ed3-3fd2-445d-bca3-35bdcd7e9998/dav/template/Panels/ProductDetails.html",
+		"/C/Users/Администратор/AppData/Local/Temp/7bcc6ed3-3fd2-445d-bca3-35bdcd7e9998/dav/template/Panels/CategoryContent.html",
+		"/C/Users/Администратор/AppData/Local/Temp/7bcc6ed3-3fd2-445d-bca3-35bdcd7e9998/dav/template/account_orderstatus.html",
+		"/C/Users/Администратор/AppData/Local/Temp/7bcc6ed3-3fd2-445d-bca3-35bdcd7e9998/dav/template/account_recentitems.html",
+		"/C/Users/Администратор/AppData/Local/Temp/7bcc6ed3-3fd2-445d-bca3-35bdcd7e9998/dav/template/account_orders.html",
+		"/C/Users/Администратор/AppData/Local/Temp/7bcc6ed3-3fd2-445d-bca3-35bdcd7e9998/dav/template/account_order.html",
+		"/C/Users/Администратор/AppData/Local/Temp/7bcc6ed3-3fd2-445d-bca3-35bdcd7e9998/dav/template/account_inbox.html",
+		"/C/Users/Администратор/AppData/Local/Temp/7bcc6ed3-3fd2-445d-bca3-35bdcd7e9998/dav/template/account_new_return.html",
+		"/C/Users/Администратор/AppData/Local/Temp/7bcc6ed3-3fd2-445d-bca3-35bdcd7e9998/dav/template/account_addressbook.html",
+		"/C/Users/Администратор/AppData/Local/Temp/4efb3f70-f19b-4801-92be-f464b7292a6a/dav/template/Styles/mg.styles.css",
+		"/C/Users/Администратор/AppData/Local/Temp/4efb3f70-f19b-4801-92be-f464b7292a6a/dav/template/Panels/Footer.html",
+		"/C/Users/Администратор/AppData/Local/Temp/4efb3f70-f19b-4801-92be-f464b7292a6a/dav/template/Panels/Header.html",
+		"/C/Users/Администратор/AppData/Local/Temp/4efb3f70-f19b-4801-92be-f464b7292a6a/dav/template/account.html",
+		"/C/Users/Администратор/AppData/Local/Temp/4efb3f70-f19b-4801-92be-f464b7292a6a/dav/template/account_addressbook.html",
+		"/C/Users/Администратор/AppData/Local/Temp/4efb3f70-f19b-4801-92be-f464b7292a6a/dav/template/wishlist.html",
+		"/C/Users/Администратор/AppData/Local/Temp/4efb3f70-f19b-4801-92be-f464b7292a6a/dav/template/account_saved_return.html",
+		"/C/Users/Администратор/AppData/Local/Temp/4efb3f70-f19b-4801-92be-f464b7292a6a/dav/template/account_returns.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Autoloader.php",
+			"require_once",
+			"top-bar",
+			" em",
+			"em",
+			"social-buttons-i",
+			"избра",
+			"избр",
+			"a:hover",
+			".info-menu .social-buttons-link",
+			".social-buttons-link",
+			"info-menu-i",
+			"\n						<li>\n							<a class=\"social-footer-link\" href=\"#\">\n								<img class=\"social-footer-img vk\" src=\"\">\n							</a>\n						</li>",
+			".slider-buttons-i.active:after",
+			"article-title",
+			"fasi",
+			"cat",
+			"more",
+			"oli",
+			" first-item",
+			"inter",
+			"cat",
+			"article-i-content",
+			"bre",
+			"tit",
+			"h4",
+			"firs-",
+			"firs",
+			"ol",
+			"press",
+			".item",
+			"resize",
+			"font",
+			"css/",
+			"tradegothiclt-bold-webfont",
+			"wide",
+			"shuffle__sizer",
+			"\n  <figure class=\"large-3 picture-item picture-item--h2\" data-groups='[\"graphics\"]'>\n    <img src=\"img/photo/4.png\" height=\"416\" width=\"300\" />\n    <div class=\"picture-item__details\">\n      <figcaption class=\"picture-item__title\">Master Chief</figcaption>\n      <p class=\"picture-item__tags\">graphics</p>\n    </div>\n    <p class=\"picture-item__description\">Some description here.</p>\n  </figure>",
+			"\n.size-1 {\n	width: 300px;\n}",
+			"brick",
+			"item",
+			"article-i left",
+			"<a class=\"text-center\"",
+			"big-img-link ",
+			"<article class=\"article-i",
+			".article-i-content",
+			"sidebar",
+			"special",
+			"hot ",
+			"link",
+			"link-img",
+			"\".",
+			"news",
+			"news-title",
+			"\n							  <li><a href=\"#\">Лица</a></li>",
+			"alert",
+			"red",
+			"ubuntu",
+			"ubuntu-r",
+			".events-l",
+			".orbit-container .orbit-next > span",
+			"today",
+			";\n",
+			"events l",
+			"example-orbit-content",
+			"conta",
+			":hover",
+			"\n			<a data-orbit-link=\"headline-3\" class=\"slider-buttons-i\">\n				<strong class='date'>19</strong>\n				<span class=\"day\">вс<br/>января</span>\n			</a>",
+			"res",
+			".top-bar-section .registration-block li:not(.has-form) a:not(.button):hover, .residents",
+			"\n			main-menu",
+			".top-bar-section li:not(.has-form) a:not(.button)",
+			".top-bar-section ul",
+			"residents-list",
+			"divider",
+			"36",
+			"social",
+			".size-72",
+			"/>\n",
+			"'',\n",
+			"          ",
+			"color",
+			"E6E6E6",
+			"side",
+			"top-bar",
+			"stat",
+			"type",
+			"href",
+			"section",
+			".large-4",
+			"button",
+			".list_carousel li",
+			".category .Breadcrumb",
+			"flex",
+			"src",
+			"ui-state-default",
+			"url",
+			"colo",
+			".list_carousel ul",
+			".QuickViewBtn",
+			"abou",
+			"loca",
+			"BlockContent,",
+			".hero #slide_prev",
+			"winter",
+			"name",
+			"fanc",
+			"/images",
+			"./images",
+			"background: url",
+			"#ContainerFooter #SideCategoryList .sf-menu ",
+			".loockboock-content-i",
+			"#image_slider li",
+			"img_group",
+			"logo",
+			"1024px",
+			"#FooterUpper",
+			"subscribe_block",
+			"footer-i-l",
+			".footer_payment",
+			"loockbook-inside",
+			"PageContentTitle,",
+			".footer-i,",
+			"media",
+			".footer_shipping",
+			"bread",
+			".account-content .left_bar",
+			"alert"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"info-menu-l-i",
+			"",
+			"article-content",
+			"first-",
+			"item",
+			"brick",
+			"article-i",
+			"",
+			" ",
+			"<article class=\"article-i left",
+			"article",
+			"sidebar-title",
+			"today-word",
+			"events-l",
+			"events l",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 160.0
+	},
+	"project": "weekend_twig.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Developing\\Verstka\\Auditory_new_sublime\\auditoriya.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 222.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
