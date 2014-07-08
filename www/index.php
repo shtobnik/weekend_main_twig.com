@@ -1,16 +1,27 @@
 <?php
 
-	require_once '/Twig-1.16.0/lib/Twig/Autoloader.php';
+  include 'templates/scripts/scripts.php';
+
+	include 'Twig/Autoloader.php';
 	Twig_Autoloader::register();
-	
-	$loader = new Twig_Loader_Filesystem('templates');
-	
-	$twig = new Twig_Environment($loader, array(
 
-  		'cache' => 'cache',
+	try {
+	  $loader = new Twig_Loader_Filesystem('templates');
+	  
+	  $twig = new Twig_Environment($loader);
 
-	));
 
-	// $template = $twig->loadTemplate('index.html');
-	echo $twig->render('index.html');
+		// echo $twig->render('main.tmpl');
+
+		$template = $twig->loadTemplate('main.tmpl');
+		
+		echo $template->render(array (
+ 			'main_menu' => $main_menu,
+ 			'cities' => $cities
+ 		));
+
+	  
+	} catch (Exception $e) {
+	  die ('ERROR: ' . $e->getMessage());
+	}
 ?>

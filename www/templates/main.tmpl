@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		{% include 'head.tmpl' %}
+	</head>
+	<body>
+
+
+		<nav class="top-bar row" data-topbar data-options="is_hover: false"> 	
+			<section class="top-bar-section clearfix"> 
+			
+			<div class="left socials-block">
+	
+				<ul class=" left social-buttons">
+					<li class="social-buttons-i"><a href="#" class="social-buttons-link fi-bold size-21"></a></li>
+					<li class="social-buttons-i"><a href="#" class="social-buttons-link fi-social-facebook size-21"></a></li>
+					<li class="social-buttons-i"><a href="#" class="social-buttons-link fi-social-twitter size-21"></a></li>
+					<li class="social-buttons-i"><a href="#" class="social-buttons-link fi-rss size-21"></a></li>
+				</ul>
+
+				<ul class="left city-selection">
+					<li class="has-dropdown">
+						<a href="#">Киев</a>
+						<ul class="dropdown">
+							{# % for item in cities %}
+								<li><a href="#">{{item|capitalize}}</a></li>
+							{% endfor % #}
+							<!-- <li><a href="#">Днепропетровск</a></li>
+							<li><a href="#">Одесса</a></li>
+							<li><a href="#">Лондон</a></li>
+							<li><a href="#">Нью-Де́ли</a></li> -->
+						</ul>
+					</li>
+				</ul>
+
+			</div>
+
+
+			<ul class="registration-block right">
+				<li><a class="enter-link" href="#"><i class="step fi-torso size-21"></i>Войти</a></li>
+				<li><a class="registration-link" href="#">Регистрация</a></li>
+			</ul>
+
+			</section>
+
+		</nav>
+
+
+		<div class="row main-menu-box"> 	
+
+			<section class="top-bar-section residents left clearfix">
+				<ul class="residents-list clearfix">
+					<li><a href="#">авторы</a></li>
+					<li><a href="#">Партнеры</a></li>
+					<li><a href="#">реКламодатеЛи</a></li>
+				</ul>
+			</section>
+
+			<section class="top-bar-section search-field row right clearfix">
+				<div class="has-form columns large-10 search-block right">
+					<div class="row collapse">
+						<div class="large-8 small-9 columns">
+							<input type="text" placeholder="Поиск">
+						</div>
+						<div class="large-2 small-2 columns">
+							<a href="#" class="search-button">
+								<i class="fi-magnifying-glass size-21"></i>
+							</a>
+						</div>
+					</div>
+				</div>		
+			</section>
+		</div>
+
+
+		<nav class=" row main-menu">
+			<ul class="main-menu-l text-center clearfix">
+				{% for item in main_menu %}
+					<li class="main-menu-l-i"><a href="#">{{item|capitalize}}</a></li>
+				{% endfor %}
+			</ul>
+		</nav>
+	<section class="slider-box row">
+		<nav class='slider-buttons'>
+			<a data-orbit-link="headline-1" class="slider-buttons-i today first">
+				<span class="today-word">Сегодня</span>
+				<strong class='date'>17</strong>
+				<span class="day">пт<br/>января</span>
+			</a>
+			<a data-orbit-link="headline-2" class="slider-buttons-i">
+				<strong class='date'>18</strong>
+				<span class="day">сб<br/>января</span>
+			</a>
+			<a data-orbit-link="headline-3" class="slider-buttons-i">
+				<strong class='date'>19</strong>
+				<span class="day">вс<br/>января</span>
+			</a>
+			<a data-orbit-link="headline-4" class="slider-buttons-i">
+				<strong class='date'>20</strong>
+				<span class="day">пн<br/>января</span>
+			</a>
+			<a data-orbit-link="headline-5" class="slider-buttons-i">
+				<strong class='date'>21</strong>
+				<span class="day">вт<br/>января</span>
+			</a>
+			<a data-orbit-link="headline-6" class="slider-buttons-i last">
+				<strong class='date'>22</strong>
+				<span class="day">ср<br/>января</span>
+			</a>
+			<a href="#" class="all-evens right ubuntu-m">Все события</a>
+		</nav>
+
+		<ul class="example-orbit-content" data-orbit>
+			<li data-orbit-slide="headline-1">
+				<ul class="events-l clearfix">
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/theater.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Александр Вертинский
+									Бал Господень...</p>
+									<p>Театр</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/music.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Александр Кривошапко</p>
+									<p>Концерт</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/music-2.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Ногу Свело</p>
+									<p>Концерт</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/art.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Шедевры древнерусского </p>искусства...
+									<p>Выставка</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/movie.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Последняя любовь мистера Моргана</p>
+									<p>Кино</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+			</li>
+			<li data-orbit-slide="headline-2">
+					<ul class="events-l clearfix">
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/theater.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Александр Вертинский
+									Бал Господень...</p>
+									<p>Театр</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/music.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Александр Кривошапко</p>
+									<p>Концерт</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/music-2.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Ногу Свело</p>
+									<p>Концерт</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/art.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Шедевры древнерусского </p>искусства...
+									<p>Выставка</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/movie.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Последняя любовь мистера Моргана</p>
+									<p>Кино</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+			</li>
+			<li data-orbit-slide="headline-3">
+				<ul class="events-l clearfix">
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/theater.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Александр Вертинский
+									Бал Господень...</p>
+									<p>Театр</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/music.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Александр Кривошапко</p>
+									<p>Концерт</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/music-2.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Ногу Свело</p>
+									<p>Концерт</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/art.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Шедевры древнерусского </p>искусства...
+									<p>Выставка</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/movie.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Последняя любовь мистера Моргана</p>
+									<p>Кино</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+			</li>
+			<li data-orbit-slide="headline-4">
+				<ul class="events-l clearfix">
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/theater.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Александр Вертинский
+									Бал Господень...</p>
+									<p>Театр</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/music.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Александр Кривошапко</p>
+									<p>Концерт</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/music-2.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Ногу Свело</p>
+									<p>Концерт</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/art.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Шедевры древнерусского </p>искусства...
+									<p>Выставка</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/movie.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Последняя любовь мистера Моргана</p>
+									<p>Кино</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+			</li>
+			<li data-orbit-slide="headline-5">
+				<ul class="events-l clearfix">
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/theater.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Александр Вертинский
+									Бал Господень...</p>
+									<p>Театр</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/music.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Александр Кривошапко</p>
+									<p>Концерт</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/music-2.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Ногу Свело</p>
+									<p>Концерт</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/art.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Шедевры древнерусского </p>искусства...
+									<p>Выставка</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/movie.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Последняя любовь мистера Моргана</p>
+									<p>Кино</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+			</li>
+			<li data-orbit-slide="headline-6">
+				<ul class="events-l clearfix">
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/theater.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Александр Вертинский
+									Бал Господень...</p>
+									<p>Театр</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/music.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Александр Кривошапко</p>
+									<p>Концерт</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/music-2.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Ногу Свело</p>
+									<p>Концерт</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/art.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Шедевры древнерусского </p>искусства...
+									<p>Выставка</p>
+								</div>
+							</a>
+						</li>
+						<li class="events-l-i left">
+							<a class="events-l-link" href="" title="Перейти на страницу события">
+								<img src="img/photos/movie.png" alt="">
+								<div class="orbit-caption">
+									<p class="event-title">Последняя любовь мистера Моргана</p>
+									<p>Кино</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+			</li>
+		</ul>
+	</section>
+	</body>
+</html>
